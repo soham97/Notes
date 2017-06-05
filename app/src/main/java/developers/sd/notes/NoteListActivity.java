@@ -19,6 +19,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -48,6 +49,7 @@ public class NoteListActivity extends SingleFragmentActivity implements View.OnC
     private TextView txtName, txtEmailId;
     private Button button_signin;
     private GoogleApiClient mGoogleApiClient;
+    private ImageButton mAccountChange;
 
     public static int navItemIndex = 0;
     private String[] activityTitles;
@@ -83,6 +85,7 @@ public class NoteListActivity extends SingleFragmentActivity implements View.OnC
         txtName = (TextView) navHeader.findViewById(R.id.name);
         txtEmailId = (TextView) navHeader.findViewById(R.id.email_id);
         button_signin = (Button) navHeader.findViewById(R.id.sign_in);
+        mAccountChange = (ImageButton) navHeader.findViewById(R.id.acc_chg);
 
         loadHomeFragment();
         setUpNavigationView();
@@ -90,6 +93,7 @@ public class NoteListActivity extends SingleFragmentActivity implements View.OnC
         new BackgroundFunctions().execute();
 
         button_signin.setOnClickListener(this);
+        mAccountChange.setOnClickListener(this);
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
@@ -238,6 +242,15 @@ public class NoteListActivity extends SingleFragmentActivity implements View.OnC
         if (id == R.id.sign_in) {
             loadHomeFragment();
             signIn();
+        }
+        if(id==R.id.acc_chg)
+        {
+            button_signin.setVisibility(View.VISIBLE);
+            txtName.setVisibility(View.GONE);
+            txtEmailId.setVisibility(View.GONE);
+            imgProfile.setVisibility(View.GONE);
+            loadHomeFragment();
+            signOut();
         }
     }
 

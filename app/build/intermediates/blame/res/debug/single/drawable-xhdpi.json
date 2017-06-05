@@ -24,12 +24,12 @@
         "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\Personal\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\drawable-xhdpi\\ic_share_white_24dp.png"
     },
     {
-        "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_search_white_24dp.png",
-        "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/drawable-xhdpi/ic_search_white_24dp.png"
-    },
-    {
         "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\SAGAR\\AndroidStudioProjects\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_brightness_5_black_24dp.png",
         "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\SAGAR\\AndroidStudioProjects\\Notes\\app\\src\\main\\res\\drawable-xhdpi\\ic_brightness_5_black_24dp.png"
+    },
+    {
+        "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_search_white_24dp.png",
+        "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/drawable-xhdpi/ic_search_white_24dp.png"
     },
     {
         "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\sohamdeshmukh\\documetns\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_add_white_24dp.png",
@@ -130,6 +130,10 @@
     {
         "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\SAGAR\\AndroidStudioProjects\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_menu_white_24dp.png",
         "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\SAGAR\\AndroidStudioProjects\\Notes\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_white_24dp.png"
+    },
+    {
+        "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_account_circle_white_24dp.png",
+        "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/drawable-xhdpi/ic_account_circle_white_24dp.png"
     },
     {
         "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\SAGAR\\AndroidStudioProjects\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_add_circle_white_24dp.png",

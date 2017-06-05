@@ -40,6 +40,10 @@
         "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/drawable-xxhdpi/ic_brightness_5_black_24dp.png"
     },
     {
+        "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_circle_white_24dp.png",
+        "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/drawable-xxhdpi/ic_account_circle_white_24dp.png"
+    },
+    {
         "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_add_white_24dp.png",
         "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/drawable-xxhdpi/ic_add_white_24dp.png"
     },

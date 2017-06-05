@@ -50,10 +50,10 @@ public final class R {
         public static final int common_google_signin_btn_text_light_normal_background = 0x7f02006f;
         public static final int googleg_disabled_color_18 = 0x7f020076;
         public static final int googleg_standard_color_18 = 0x7f020077;
-        public static final int ic_plusone_medium_off_client = 0x7f020116;
-        public static final int ic_plusone_small_off_client = 0x7f020117;
-        public static final int ic_plusone_standard_off_client = 0x7f020118;
-        public static final int ic_plusone_tall_off_client = 0x7f020119;
+        public static final int ic_plusone_medium_off_client = 0x7f020117;
+        public static final int ic_plusone_small_off_client = 0x7f020118;
+        public static final int ic_plusone_standard_off_client = 0x7f020119;
+        public static final int ic_plusone_tall_off_client = 0x7f02011a;
     }
     public static final class id {
         public static final int adjust_height = 0x7f100041;
@@ -68,9 +68,9 @@ public final class R {
         public static final int progressBar = 0x7f100086;
         public static final int radio = 0x7f10006b;
         public static final int standard = 0x7f100049;
-        public static final int text = 0x7f1000f0;
+        public static final int text = 0x7f1000f1;
         public static final int text1 = 0x7f100087;
-        public static final int text2 = 0x7f1000ee;
+        public static final int text2 = 0x7f1000ef;
         public static final int wide = 0x7f10004a;
         public static final int wrap_content = 0x7f10002c;
     }

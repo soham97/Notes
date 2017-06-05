@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_view_stream_white_24dp.png",
-        "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/drawable-mdpi/ic_view_stream_white_24dp.png"
+        "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\SAGAR\\AndroidStudioProjects\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_view_quilt_white_24dp.png",
+        "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\SAGAR\\AndroidStudioProjects\\Notes\\app\\src\\main\\res\\drawable-mdpi\\ic_view_quilt_white_24dp.png"
     },
     {
         "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_palette_white_24dp.png",
         "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/drawable-mdpi/ic_palette_white_24dp.png"
     },
     {
-        "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\SAGAR\\AndroidStudioProjects\\Notes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_view_quilt_white_24dp.png",
-        "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\SAGAR\\AndroidStudioProjects\\Notes\\app\\src\\main\\res\\drawable-mdpi\\ic_view_quilt_white_24dp.png"
+        "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_view_stream_white_24dp.png",
+        "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/drawable-mdpi/ic_view_stream_white_24dp.png"
     },
     {
         "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_search_white_24dp.png",
@@ -146,6 +146,10 @@
     {
         "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\sohamdeshmukh\\documetns\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_add_circle_white_24dp.png",
         "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\sohamdeshmukh\\documetns\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\drawable-mdpi\\ic_add_circle_white_24dp.png"
+    },
+    {
+        "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_account_circle_white_24dp.png",
+        "source": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/drawable-mdpi/ic_account_circle_white_24dp.png"
     },
     {
         "merged": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/C:\\Users\\Personal\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_add_a_photo_white_24dp.png",

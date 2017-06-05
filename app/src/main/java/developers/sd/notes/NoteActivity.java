@@ -1,6 +1,5 @@
 package developers.sd.notes;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
@@ -12,8 +11,8 @@ import java.util.UUID;
 
 public class NoteActivity extends SingleFragmentActivity {
 
-    private static final String EXTRA_NOTE_ID = "developers.sd.notes.note_id";
-
+    private static final String EXTRA_NOTE_ID =
+            "developers.sd.notes.note_id";
 
     public static Intent newIntent(Context packageContext, UUID noteId) {
         Intent intent = new Intent(packageContext, NoteActivity.class);

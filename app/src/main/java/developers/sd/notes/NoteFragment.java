@@ -53,19 +53,16 @@ public class NoteFragment extends Fragment {
     private static final String ARG_NOTE_ID = "note_id";
     private static final String DIALOG_DELETE = "DialogDelete";
     private static final String DIALOG_DELETE_FINAL = "DialogDeleteFinal";
-    private static final String DIALOG_SAVE = "DialogSave";
 
 
     private static final int REQUEST_DELETE = 0;
     private static final int REQUEST_DELETE_FINAL = 23;
     private static final int REQUEST_PHOTO = 2;
     private static final int SELECT_PHOTO = 3;
-    private static final int REQUEST_SAVE = 4;
 
 
     private boolean start = true;
     private boolean checkboxtext = false;
-    private boolean save = false;
     int i = 1;
     private static String audioFilePath, galleryPhotoFilePath;
     private static MediaPlayer mediaPlayer = new MediaPlayer();
@@ -119,25 +116,6 @@ public class NoteFragment extends Fragment {
     public void onResume() {
         super.onResume();
         NoteLab.get(getActivity()).updateNote(mNote);
-        getView().setFocusableInTouchMode(true);
-        getView().requestFocus();
-        getView().setOnKeyListener(new View.OnKeyListener() {
-            @Override
-            public boolean onKey(View v, int keyCode, KeyEvent event) {
-
-                if (event.getAction() == KeyEvent.ACTION_UP && keyCode == KeyEvent.KEYCODE_BACK){
-
-                    // handle back button
-                    FragmentManager manager = getFragmentManager();
-                    SaveDialog dialog = new SaveDialog().newInstance(mNote.getId());
-                    dialog.setTargetFragment(NoteFragment.this, REQUEST_SAVE);
-                    dialog.show(manager, DIALOG_SAVE);
-                    return true;
-
-                }
-                return false;
-            }
-        });
     }
 
     @Override
@@ -568,9 +546,6 @@ public class NoteFragment extends Fragment {
         }
         if(requestCode==REQUEST_DELETE_FINAL){
             NoteLab.get(getActivity()).deleteNote(mNote);
-        }
-        if(requestCode==REQUEST_SAVE){
-            save = (Boolean) data.getBooleanExtra(SaveDialog.EXTRA_SAVE_NOTE,false);
         }
     }
 

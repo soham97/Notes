@@ -163,12 +163,6 @@ public class NoteListActivity extends SingleFragmentActivity implements View.OnC
                         navItemIndex = 0;
 
                 }
-//                if (menuItem.isChecked()) {
-//                    menuItem.setChecked(false);
-//                } else {
-//                    menuItem.setChecked(true);
-//                }
-//                menuItem.setChecked(true);
                 loadHomeFragment();
                 return true;
             }
@@ -198,6 +192,7 @@ public class NoteListActivity extends SingleFragmentActivity implements View.OnC
 
 
     private void signOut() {
+        mAccountChange.setVisibility(View.GONE);
         Auth.GoogleSignInApi.signOut(mGoogleApiClient).setResultCallback(
                 new ResultCallback<Status>() {
                     @Override
@@ -209,16 +204,13 @@ public class NoteListActivity extends SingleFragmentActivity implements View.OnC
     private void handleSignInResult(GoogleSignInResult result) {
         if (result.isSuccess()) {
             button_signin.setVisibility(View.GONE);
+            mAccountChange.setVisibility(View.VISIBLE);
             // Signed in successfully, show authenticated UI.
             GoogleSignInAccount acct = result.getSignInAccount();
 
             String personName = acct.getDisplayName();
             String personPhotoUrl = acct.getPhotoUrl() != null ? acct.getPhotoUrl().toString() : null;
             String email = acct.getEmail();
-
-            Log.e(TAG, "display name: " + acct.getDisplayName());
-            Log.e(TAG, "Name: " + personName + ", email: " + email
-                    + ", Image: " + personPhotoUrl);
 
             txtName.setVisibility(View.VISIBLE);
             txtEmailId.setVisibility(View.VISIBLE);

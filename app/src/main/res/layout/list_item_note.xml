@@ -40,8 +40,8 @@
 
         <ImageView
             android:id="@+id/note_image"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_toLeftOf="@+id/list_item_note_solved_check_box"
             android:visibility="gone"
             android:layout_margin="5dp"

@@ -186,7 +186,7 @@ public class NoteFragment extends Fragment {
         fab_insert_audio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                start = !start;
+//                start = !start;
                 if (start) {
                     try {
                         i++;
@@ -203,13 +203,20 @@ public class NoteFragment extends Fragment {
                     }
                     mediaRecorder.start();
                 } else  {
-                    Toast.makeText(getContext(), "Stop", Toast.LENGTH_LONG).show();
-                    fab_insert_audio.setImageResource(R.drawable.ic_audiotrack_white_24dp);
-                    mediaRecorder.stop();
-                    mediaRecorder.reset();
-                    mediaRecorder.release();
-                    updateaudio();
+                    try {
+                        Toast.makeText(getContext(), "Stop", Toast.LENGTH_LONG).show();
+                        fab_insert_audio.setImageResource(R.drawable.ic_audiotrack_white_24dp);
+                        mediaRecorder.stop();
+                        mediaRecorder.reset();
+                        mediaRecorder.release();
+                        updateaudio();
+                    }
+                    catch (Exception e)
+                    {
+                        e.printStackTrace();
+                    }
                 }
+                start = !start;
             }
         });
 

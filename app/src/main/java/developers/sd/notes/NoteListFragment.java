@@ -204,7 +204,7 @@ public class NoteListFragment extends Fragment {
             @Override
             protected Note doInBackground(Note...params) {
                 Note note = params[0];
-                mImageFile = NoteLab.get(getActivity()).getPhotoFile(note);
+                mImageFile = NoteLab.get(getActivity()).getPhotoFile(mNote);
                 if (mImageFile == null || !mImageFile.exists()) {
                     if(mNote.getImage() != null) {
                         bitmap1 = BitmapUtility.getImage(mNote.getImage());
@@ -224,28 +224,27 @@ public class NoteListFragment extends Fragment {
                 if (mImageFile == null || !mImageFile.exists()) {
                     if(mNote.getImage() != null) {
                         mNoteImage.setVisibility(View.VISIBLE);
-                        mNoteImage.setImageBitmap(bitmap2);
+                        mNoteImage.setImageBitmap(BitmapUtility.getCircleBitmap(bitmap2));
                     } else {
                         mNoteImage.setVisibility(View.GONE);
                         mNoteImage.setImageDrawable(null);
                     }
                 } else {
                     mNoteImage.setVisibility(View.VISIBLE);
-                    mNoteImage.setImageBitmap(bitmap2);
+                    mNoteImage.setImageBitmap(BitmapUtility.getCircleBitmap(bitmap2));
                 }
             }
         }
 
-        @Override
+
         public void onClick(View v) {
             if (cab == true) {
-                Intent intent = NoteActivity.newIntent(getActivity(), mNote.getId());
                 mNoteRecyclerView.invalidate();
+                Intent intent = NoteActivity.newIntent(getActivity(), mNote.getId());
                 startActivity(intent);
             } else {
                 int id = getAdapterPosition();
                 myToggleSelection(id);
-                Log.e("id long", del_Notes.toString());
             }
         }
 

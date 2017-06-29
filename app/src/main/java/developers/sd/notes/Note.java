@@ -7,7 +7,7 @@ import java.util.UUID;
 public class Note {
 
     private UUID mId;
-    private String mTitle = "Title for Note";
+    private String mTitle = "";
     private String mSubject;
     private String mDate;
     private boolean mSolved;

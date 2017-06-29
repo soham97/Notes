@@ -34,7 +34,7 @@ public class AboutUs extends AppCompatActivity {
                 .addItem(new Element().setTitle("Version 0.1"))
 //                .addItem(adsElement)
 //                .addGroup("Connect with us")
-                .addEmail("Yahoo")
+                .addEmail("developers.sd.com@gmail.com")
 //                .addWebsite("https://pavedlife.blogspot.in")
 //                .addFacebook("the.medy")
 //                .addTwitter("medyo80")

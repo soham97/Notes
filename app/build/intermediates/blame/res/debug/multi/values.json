@@ -3906,14 +3906,7 @@
                     "endOffset": 60330
                 },
                 "from": {
-                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 357,
-                        "endColumn": 46,
-                        "endOffset": 399
-                    }
+                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/values/dimens.xml"
                 }
             },
             {
@@ -3925,14 +3918,7 @@
                     "endOffset": 60376
                 },
                 "from": {
-                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 311,
-                        "endColumn": 45,
-                        "endOffset": 352
-                    }
+                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/src/main/res/values/dimens.xml"
                 }
             },
             {
@@ -5060,7 +5046,14 @@
                     "endOffset": 68114
                 },
                 "from": {
-                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/generated/res/google-services/debug/values/values.xml"
+                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/generated/res/google-services/debug/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 143,
+                        "endOffset": 194
+                    }
                 }
             },
             {
@@ -5132,7 +5125,14 @@
                     "endOffset": 68556
                 },
                 "from": {
-                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/generated/res/google-services/debug/values/values.xml"
+                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/generated/res/google-services/debug/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 199,
+                        "endColumn": 81,
+                        "endOffset": 276
+                    }
                 }
             },
             {
@@ -5144,7 +5144,14 @@
                     "endOffset": 68660
                 },
                 "from": {
-                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/generated/res/google-services/debug/values/values.xml"
+                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/generated/res/google-services/debug/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 103,
+                        "endOffset": 380
+                    }
                 }
             },
             {
@@ -5156,7 +5163,14 @@
                     "endOffset": 68763
                 },
                 "from": {
-                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/generated/res/google-services/debug/values/values.xml"
+                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/generated/res/google-services/debug/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 385,
+                        "endColumn": 102,
+                        "endOffset": 483
+                    }
                 }
             },
             {
@@ -5168,7 +5182,14 @@
                     "endOffset": 68883
                 },
                 "from": {
-                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/generated/res/google-services/debug/values/values.xml"
+                    "file": "/Users/sohamdeshmukh/AndroidStudioProjects/Notes/app/build/generated/res/google-services/debug/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 488,
+                        "endColumn": 119,
+                        "endOffset": 603
+                    }
                 }
             },
             {

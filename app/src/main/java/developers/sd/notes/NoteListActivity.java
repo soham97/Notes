@@ -154,6 +154,7 @@ public class NoteListActivity extends SingleFragmentActivity implements View.OnC
                     case R.id.nav_restore_drive:
                         Intent intent2 = new Intent(NoteListActivity.this, RestoreDriveActivity.class);
                         startActivity(intent2);
+                        drawer.closeDrawers();
                         break;
                     case R.id.nav_about_us:
                         Intent intent3 = new Intent(NoteListActivity.this, AboutUs.class );

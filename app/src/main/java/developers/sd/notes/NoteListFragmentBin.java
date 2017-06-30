@@ -192,12 +192,12 @@ public class NoteListFragmentBin extends Fragment {
                 if (mImageFile == null || !mImageFile.exists()) {
                     if(mNote.getImage() != null) {
                         mNoteImage.setVisibility(View.VISIBLE);
-                        mNoteImage.setImageBitmap(bitmap2);
+                        mNoteImage.setImageBitmap(BitmapUtility.getCircleBitmap(bitmap2));
                     } else { mNoteImage.setImageDrawable(null); }
                 } else {
                     mNoteImage.setVisibility(View.VISIBLE);
-                    mNoteImage.setImageBitmap(bitmap2);
-                }
+                     mNoteImage.setImageBitmap(BitmapUtility.getCircleBitmap(bitmap2));
+               }
             }
         }
 
